@@ -3,21 +3,21 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = ({ sidebar, setSidebar }) => {
   return (
-    <div className="absolute top-0 left-0 w-full py-2 text-white z-20">
+    <div id="rumah" className="absolute top-0 left-0 w-full py-2 text-white z-20">
       <div data-aos="fade-down" className="container">
         <div className="flex justify-between items-center">
           <h1 className="text-4xl font-bold uppercase ">
-            Straw<span className="font-normal ">Berries</span>
+            Straw<span className="font-normal ">Berry</span>
           </h1>
           <ul className="space-x-14 text-xl hidden lg:flex">
             <li>
-              <a href="#">Home</a>
+              <a href="#rumah">Beranda</a>
             </li>
             <li>
-              <a href="#">Where to Find</a>
+              <a href="#products">Dimana Menemukannya</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Kontak</a>
             </li>
           </ul>
           <div onClick={() => setSidebar(!sidebar)}>

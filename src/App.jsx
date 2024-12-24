@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Masakan from "./components/Masakan";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial"
+import Product from './components/Product';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -22,6 +23,7 @@ const App = () => {
       <div>
         <Hero />
         <Masakan />
+        <Product />
         <Testimonial />
       </div>
       <Footer />

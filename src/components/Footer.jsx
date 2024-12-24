@@ -4,19 +4,19 @@ import footerLogo from "../assets/orgu.png";
 
 const Footer = () => {
   return (
-    <div id="about" className="bg-primaryDark">
+    <div  data-aos="fade-up" data-aos-duration="300" id="about" className="bg-primaryDark">
       <section className="max-w-[1200px] mx-auto">
         <div className="grid md:grid-cols-3 py-5">
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 text-white">
               <img src={footerLogo} alt="Logo" className="max-w-[50px]" />
-              STRAWBERRIES
+              STRAWBERRY
             </h1>
             <p className="text-white">
-              StrawBerries, buah yang lezat, menyehatkan, dan menyenangkan
+              StrawBerry, buah yang lezat, menyehatkan, dan menyenangkan
             </p>
             <br />
-            <div className="flex items-center gap-3 text-white">
+            <div id="contact" className="flex items-center gap-3 text-white">
               <FaLocationArrow />
               <p>Semarang</p>
             </div>
@@ -25,13 +25,13 @@ const Footer = () => {
               <p>+62 127-6879-0065</p>
             </div>
             <div className="flex items-center gap-3 mt-6 text-white">
-              <a href="#">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="text-3xl" />
               </a>
-              <a href="#">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <FaFacebook className="text-3xl" />
               </a>
-              <a href="#">
+              <a href="https://id.linkedin.com/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-3xl" />
               </a>
             </div>
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-center py-10 border-t-2 border-gray-300/50 text-white">
-            &copy; 2024 All rights reserved || Made with AI by Linggo
+            &copy; 2024 All rights reserved || Made with VSCode by Linggo
           </div>
         </div>
       </section>

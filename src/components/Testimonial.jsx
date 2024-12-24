@@ -68,7 +68,7 @@ const Testimonial = () => {
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
             <h1 className="text-3xl font-bold text-secondary">Testimonial</h1>
-            <p className="text-xs">
+            <p className="text-4xs">
               Berikut adalah beberapa pengalaman dan pendapat dari orang yang sudah sering makan strawberries.
             </p>
           </div>
