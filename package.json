@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "festrawberry",
+=======
   "name": "buah-strawberries",
+>>>>>>> f73c80a6dc70369b667aca6ee6538a44c968a5c7
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,19 +15,46 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+<<<<<<< HEAD
+    "axios": "^1.7.9",
+=======
+<<<<<<< HEAD
     "axios": "^1.7.9",
     "framer-motion": "^11.15.0",
+=======
+>>>>>>> origin/master
+    "framer-motion": "^11.15.0",
     "quantity": "^0.0.1",
+>>>>>>> f73c80a6dc70369b667aca6ee6538a44c968a5c7
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-router": "^7.1.1",
     "react-router-dom": "^7.1.1",
+<<<<<<< HEAD
+    "react-slick": "^0.30.3",
+=======
     "react-slick": "^0.30.2",
+>>>>>>> f73c80a6dc70369b667aca6ee6538a44c968a5c7
     "slick-carousel": "^1.8.1",
     "sweetalert2": "^11.6.13"
   },
   "devDependencies": {
+<<<<<<< HEAD
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+=======
     "@eslint/js": "^9.15.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
@@ -37,5 +68,6 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "vite": "^6.0.1"
+>>>>>>> f73c80a6dc70369b667aca6ee6538a44c968a5c7
   }
 }

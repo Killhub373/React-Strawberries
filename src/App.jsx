@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 import React from 'react';
@@ -13,6 +14,22 @@ import { AuthProvider } from './contexts/AuthContext';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+=======
+import React from "react";
+import Hero from "./components/Hero";
+import Masakan from "./components/Masakan";
+import Footer from "./components/Footer";
+<<<<<<< HEAD
+import Product from "./components/Product";
+import Testimonial from "./components/Testimonial"
+
+=======
+import Testimonial from "./components/Testimonial"
+import Product from './components/Product';
+>>>>>>> f73c80a6dc70369b667aca6ee6538a44c968a5c7
+import AOS from "aos";
+import "aos/dist/aos.css";
+>>>>>>> origin/master
 
 const App = () => {
   React.useEffect(() => {
@@ -41,6 +58,7 @@ const App = () => {
   );
 };
 
+<<<<<<< HEAD
 const Home = () => (
   <div>
     <Hero />
@@ -50,4 +68,10 @@ const Home = () => (
   </div>
 );
 
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 export default App;
+=======
+export default App;
+>>>>>>> f73c80a6dc70369b667aca6ee6538a44c968a5c7
