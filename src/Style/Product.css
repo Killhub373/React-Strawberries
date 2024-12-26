@@ -10,7 +10,7 @@ body {
 
 .header {
   background-color: #7e1108;
-  font-weight:bold;
+  font-weight: bold;
   color: white;
   padding: 10px 0;
   padding-inline: 10px;
@@ -71,14 +71,26 @@ body {
 
 .submit-button:hover,
 .confirm-button:hover {
-  background-color:rgb(99, 14, 7);
+  background-color: rgb(99, 14, 7);
 }
 
 .modal-content p {
   margin-bottom: 10px;
 }
 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+  max-width: 50px;
+}
 
 .product {
   display: flex;
@@ -130,4 +142,44 @@ body {
   color: white;
   background-color: #7e1108;
   cursor: pointer;
+}
+
+
+.cart {
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-buttons button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #980a07;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-buttons button:hover {
+  background-color: #7e1108;
 }
